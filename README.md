@@ -9,3 +9,4 @@ at `https://savcab.github.io/website-builder/<biz_key>/`.
 - One directory per business key (`biz_key`); the Builder (`awb-build-html`) writes
   `index.html` there and pushes. Revisions overwrite the same directory.
 - Root `index.html` is `noindex`; previews are reachable by their direct URL.
+- A root `.nojekyll` disables Jekyll so every file (including any underscore paths) is served verbatim.
